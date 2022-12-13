@@ -380,17 +380,4 @@ def main(source, destination, parallel=1):
 
 
 if __name__ == '__main__':
-    filepath = 'D:/project/python/1102/ikm_data/auto_doc_info_extractor/parse_pdf/redBook/iuap-AI工作坊红皮书.pdf'
-    filepath = '../redBook/iuap-DevOps云上调试红皮书.pdf'
-
-
-    begin_time = time.time()
-    paragraphs = get_paragraph_information_from_parse_result(filepath, 1)
-    print('multi task time: ', time.time() - begin_time)
-
-    # paragraphs = get_text_from_pdf(filepath)
-    destination = 'iuap-DevOps云上调试红皮书1212b.' + 'txt'
-    with open(destination, 'w', encoding='utf-8') as f:
-        for paragraph in paragraphs:
-            f.write(paragraph['text'])
-            f.write('\n')
+    pass
