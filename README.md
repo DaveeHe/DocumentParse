@@ -1,2 +1,2 @@
 # DocumentParse
-different type of document is parsed in this project， like pdf,word,html
+different types of documents is parsed in this project， like pdf,word,html
